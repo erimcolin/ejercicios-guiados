@@ -1,0 +1,188 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+a:hover {
+  color: #E95853;
+}
+
+a {
+  margin-left: 30px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.71429;
+  margin: 0 auto;
+}
+
+img {
+  outline: 1px solid red;
+  vertical-align: middle;
+}
+
+nav {
+  background: white;
+  position: fixed;
+  padding: 5px;
+  top:0;
+  width: 1400px;
+  z-index: 1;
+}
+
+#first_section {
+  outline: 1px solid red;
+  position: relative;
+  padding: 0px;
+  width: 1300px;
+}
+
+#first_section a {
+  background-color: green;
+  color: white;
+  left: 500px;
+  padding: 10px;
+  position: relative;
+  top: -320px;
+}
+
+#first_section h1 {
+  color: white;
+  font-size: 30px;
+  left: 420px;
+  position: relative;
+  top: -390px;
+}
+
+#first_section h2{
+  color: white;
+  font-size: 15px;
+  left: 450px;
+  position: relative;
+  top: -400px;
+}
+
+#first_section p {
+  color: white;
+  left: 450px;
+  position: relative;
+  top: -360px;
+}
+
+#main_logo {
+  margin-left: 900px;
+}
+
+#second_section {
+  background-color: #f17c72;
+  width: 1300px;
+}
+
+#second_section h2 {
+  left: 400px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#second_section h4 {
+  color: white;
+  font-size: 15px;
+  margin-top: 30px;
+  position: relative;
+}
+
+#second_section div {
+  text-align: center;
+  color: white;
+  display: inline-block;
+  margin-right: 200px;
+}
+
+#second_section #size {
+  font-size: 11px;
+}
+
+.container {
+  width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}

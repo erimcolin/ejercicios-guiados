@@ -1,0 +1,25 @@
+div {
+  float: left;
+}
+
+hr {
+  border: 1px solid grey;
+  margin: 5px;
+  width: 90px;
+}
+
+p {
+  bottom: 0;
+  color: white;
+  display: inline;
+  left: 40%;
+  position: absolute;
+  text-align: center;
+}
+
+section {
+  float: left;
+  font-family: sans-serif;
+  margin: 30px;
+  position: relative;
+}
