@@ -76,6 +76,7 @@ a:hover {
 
 a {
   margin-left: 30px;
+  letter-spacing: 6px;
 }
 
 body {
@@ -85,9 +86,9 @@ body {
   margin: 0 auto;
 }
 
-img {
-  outline: 1px solid red;
+#main_image {
   vertical-align: middle;
+  margin-bottom: -220px;
 }
 
 nav {
@@ -100,10 +101,9 @@ nav {
 }
 
 #first_section {
-  outline: 1px solid red;
-  position: relative;
-  padding: 0px;
-  width: 1300px;
+  margin-right: -100px;
+  margin-top: 50px;
+  margin-bottom: -10px;
 }
 
 #first_section a {
@@ -112,7 +112,7 @@ nav {
   left: 500px;
   padding: 10px;
   position: relative;
-  top: -320px;
+  top: -120px;
 }
 
 #first_section h1 {
@@ -120,22 +120,22 @@ nav {
   font-size: 30px;
   left: 420px;
   position: relative;
-  top: -390px;
+  top: -190px;
 }
 
 #first_section h2{
   color: white;
   font-size: 15px;
-  left: 450px;
+  left: 540px;
   position: relative;
-  top: -400px;
+  top: -200px;
 }
 
 #first_section p {
   color: white;
-  left: 450px;
+  left: 370px;
   position: relative;
-  top: -360px;
+  top: -160px;
 }
 
 #main_logo {
@@ -147,28 +147,45 @@ nav {
   width: 1300px;
 }
 
-#second_section h2 {
-  left: 400px;
-  text-align: center;
-  font-size: 25px;
-}
-
-#second_section h4 {
-  color: white;
-  font-size: 15px;
-  margin-top: 30px;
+#second_section .fit {
+  background-color: #f17c72;
+  display: inline-block;
+  margin-left: 150px;
   position: relative;
 }
 
-#second_section div {
-  text-align: center;
+#second_section h5 {
   color: white;
-  display: inline-block;
-  margin-right: 200px;
+}
+
+#second_section h6 {
+  color: white;
+  font-size: 10px;
 }
 
 #second_section #size {
-  font-size: 11px;
+  color: white;
+  display: inline-block;
+  margin-left: 300px;
+  margin-right: 180px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#third_section div h2{
+  letter-spacing: 2px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#third_section div h4 {
+  font-size: 13px;
+  text-align: center;
+}
+
+#third_section img {
+  margin-left: 280px;
 }
 
 .container {
@@ -177,10 +194,6 @@ nav {
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
 }
 
 .text-uppercase {
